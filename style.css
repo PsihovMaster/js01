@@ -1,0 +1,213 @@
+body {
+    font: normal normal 70% Verdana, Georgia, Times, serif;
+}
+
+body {
+    background: url(a_img.gif) repeat #000000;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+h1 {
+    background: url(01.jpg) no-repeat #000000;
+    height: 430px;
+}
+
+h2 {
+    background: url(h2.gif) no-repeat #000000;
+    height: 360px;
+    margin-left: -62px;
+    position: absolute;
+    top: 0;
+    width: 60px;
+}
+
+* > h2 {
+    position: fixed;
+}
+
+h3 {
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+p {
+    color: #9296A2;
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+p:hover {
+    color: #E7E7F1;
+}
+
+p * {
+    color: #9296A2;
+}
+
+p:hover * {
+    color: #E7E7F1;
+}
+
+ul {
+    background-color: transparent;
+    color: #9296A2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+ul li {
+    list-style: square;
+    margin: 0 0 0 2em;
+    padding: 0;
+}
+
+ul li a {
+    font-weight: normal;
+}
+
+.page-wrapper {
+    background: url(02.jpg) bottom no-repeat #000000;
+    border: #000 solid 2px;
+    border-width: 0 2px;
+    color: #E7E7F1;
+    margin-left: -321px;
+    padding-bottom: 500px;
+    position: absolute;
+    left: 50%;
+    width: 642px;
+}
+
+header {
+    background-color: #000000;
+}
+
+header h1, header h2 {
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.summary {
+    margin-top: -10px;
+}
+
+.summary, .preamble {
+    margin-left: 290px;
+    text-align: justify;
+    width: 270px;
+}
+
+.preamble h3 {
+    background: url(h3_preamble.gif) no-repeat #000000;
+    height: 60px;
+    width: 330px;
+}
+
+.supporting {
+    margin-left: 24px;
+    width: 440px;
+}
+
+p {
+    border-left: 1px dotted #9296A2;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.explanation h3 {
+    background: url(h3_explanation.gif) no-repeat #000000;
+    height: 60px;
+    width: 330px;
+}
+
+.participation h3 {
+    background: url(h3_participation.gif) no-repeat #000000;
+    height: 60px;
+    width: 330px;
+}
+
+.benefits h3 {
+    background: url(h3_benefits.gif) no-repeat #000000;
+    height: 60px;
+    width: 330px;
+}
+
+.requirements h3 {
+    background: url(h3_requirements.gif) no-repeat #000000;
+    height: 60px;
+    width: 330px;
+}
+
+.sidebar {
+    left: 12px;
+    position: absolute;
+    top: 400px;
+    width: 256px;
+}
+
+.sidebar h3 {
+    height: 30px;
+    width: 200px;
+}
+
+.sidebar h3.select {
+    background: url(h3.select.gif) no-repeat #000000;
+}
+
+.sidebar h3.favorites {
+    background: url(h3.favorites.gif) no-repeat #000000;
+}
+
+.sidebar h3.archives {
+    background: url(h3.archives.gif) no-repeat #000000;
+}
+
+.sidebar h3.resources {
+    background: url(h3.resources.gif) no-repeat #000000;
+}
+
+footer {
+    bottom: 400px;
+    position: absolute;
+    right: 36px;
+    text-align: right;
+}
+
+.extra1 {
+    background: url(thingy.gif) no-repeat #9296A2;
+    bottom: 0;
+    float: right;
+    height: 36px;
+    position: fixed;
+    right: 0;
+    width: 36px;
+}
+
+:link, :visited {
+    background-color: transparent;
+    color: #9296A2;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+:link:hover, :visited:hover {
+    background-color: #9296A2;
+    color: #373B46;
+    text-decoration: none;
+}
